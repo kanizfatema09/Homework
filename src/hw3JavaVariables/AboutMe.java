@@ -8,7 +8,7 @@ public class AboutMe {
 	public short houseNumber = 378;
 	public int mortgage = 15760;
 	public long loanAmount = 65078978l;
-	public float livingroomHeight = 6.74585f;
+	public float livingroomHeight = 6.74585f; //test
 	public double entireHouseHeight = 4.9876543;
 	public char apartmentNumber = 'A';
 	public boolean brandNewHouse = true;
