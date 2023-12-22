@@ -11,7 +11,8 @@ public class AboutMe {
 	public float livingroomHeight = 6.74585f; //test
 	public double entireHouseHeight = 4.9876543;
 	public char apartmentNumber = 'A';
-	public boolean brandNewHouse = true;
+	public boolean brandNewHouse = true; // test 2
+	
 
 	public AboutMe() { // Constructor is declared.
 		System.out.println(":------------ This is all about Myself ------------:");
