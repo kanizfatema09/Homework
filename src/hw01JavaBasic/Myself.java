@@ -1,4 +1,4 @@
-package hw1JavaBasic;
+package hw01JavaBasic;
 // example of single line comment
 
 
