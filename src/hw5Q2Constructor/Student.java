@@ -20,7 +20,7 @@ public class Student { // Variables are declared.
 		this.stProgrammer = stProgrammer;
 		this.stGrade = stGrade;
 		System.out.println("Student Name:" + studentName + ", Student Id:" + stId + ", Student Gender:" + stGender
-				+ ", Student Program:" + stProgrammer + " , Student Grade:" + stGrade);
+				+ ", Student Program:" + stProgrammer + ", Student Grade:" + stGrade);
 
 		{
 			
