@@ -11,6 +11,7 @@ public class MyFamily {
 		 System.out.println("The sum of my children age is: " + sum);
 		  return sum;
 	}
+	
 		  
 		  public static void main(String[] args) {
 			  MyFamily myFamily = new MyFamily();
