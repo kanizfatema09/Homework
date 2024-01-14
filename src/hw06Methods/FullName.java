@@ -9,9 +9,10 @@ public class FullName {
     	
     	 public static void main(String[] args) {
     		 FullName fullName = new FullName();
-    		 String familyNameString1 = fullName.fullName("Tasnim", "Tasawal");
-    		 String familyNameString2 = fullName.fullName("Sahir", "Subhi");
-    		 String familyNameString3 = fullName.fullName("Ahil", "Reehum");
+    		 String fullString = fullName.fullName("Tasnim", "Tasawal");
+    		 String fullName2 = fullName.fullName("Sahir", "Subhi");
+    		 String fullName3 = fullName.fullName("Ahil", "Reehum");
+    		 
     	 }
     	
     }
