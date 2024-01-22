@@ -24,23 +24,35 @@ public class Sister {
 	}
 
 	public int sister(String age4, int age5, int age6) {
-		int totalAge3 = age5 + Integer.parseInt(age4) + age6; // This formula is not a part of polymorphism, we just convert them to int
+		int totalAge3 = age5 + Integer.parseInt(age4) + age6; 
 		System.out.println("Total area from Sister: " + totalAge3);
 		return totalAge3;
 	}
     
 	public final int sister (int age1, int age2, int age3, int age4) {
-		int totalAge5 = 1+2+3+4; // local variable
+		int totalAge5 = 1+2+3+4; 
 		System.out.println("Total area from Sister: " + totalAge5);
 		return totalAge5;
 	}
 
 	public static void sister (int age1, int age2, int age3, int age4, int age5) {
-		int totalAge7 = 1+2+3+4+5; // local variable
+		int totalAge7 = 1+2+3+4+5; 
 		System.out.println("Total area from Sister: " + totalAge7);
 	}
 
+	public void sister(int age1) {
+		// TODO Auto-generated method stub
+		
 	}
+
+	public void sister(int age2, int age3) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	}
+	
 	
     
 

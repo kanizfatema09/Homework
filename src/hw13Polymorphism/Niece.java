@@ -3,33 +3,32 @@ package hw13Polymorphism;
 /*
  * Method overriding occurs when a subclass provides a specific implementation
  * for a method that is already defined in its superclass.
- * The overriding method must have the same name, return type, and parameters.
- * Method overriding is a key feature of polymorphism.
+ * The overridden method must have the same name, return type, and parameters.
  */
 
-
-public class Niece extends Sister{
-	
+public class Niece extends Sister {
+    // Overriding method with void type
+   
 	@Override
-	public void sister() {
-		System.out.println("This is from void type method from Niece");
-	}
+    public void sister(int age1 + age2) {
+        // New logic for Niece
+    }
 
-	 @Override
-	    public void sister(int age1, age2); 
-	        System.out.println("Niece's age is: " + age);
-	    
+    // Overriding method with parameterized type
+    @Override
+    public void sister(int age2, int age3) {
+        // New logic for Niece
+    }
 
-	    @Override
-	    public void sister(int age1, int age2, int age3) {
-	        System.out.println("Niece ages are: " + age1 + ", " + age2 + ", " + age3);
-	    }
+    // Overriding method with return type
+    @Override
+    public String sister(String age4) {
+        // New logic for Niece
+        return age4 + " (modified)";
+    }
+}
 
-	    @Override
-	    public void sister(String age4) {
-	        System.out.println("Niece's age is: " + age4);
-	    }
-	    
+
 	    /*
 	     * Cannot override static method
 	     *     // Because Static methods belong to the class, not to instances.
@@ -48,4 +47,5 @@ public class Niece extends Sister{
 	    // @Override
 	    // public final void sisterFinal() {...}
 
-}
+
+
